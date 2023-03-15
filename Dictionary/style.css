@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: slateblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .container{
+        background-color: rgba(255,255,255, .3);
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 20px 10px 10px rgba(0,0,0, .3);
+        width: 57%;
+        margin: 10px;
+        max-width: 450px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .heading{
+        font-size: 30px;
+    }
+
+
+    .input{
+        height: 53px;
+        width: 300px;
+        background-color:rgba(255,255,255, .6);
+        border-color: rgba(255,255,255, .4);
+        font-size: 16px;
+        padding: 0 42px;
+        border-radius: 5px;
+    }
+.meaning-container{
+    display: none;
+}
+
+
